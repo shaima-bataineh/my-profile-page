@@ -5,29 +5,31 @@
   <title>Contact</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
-
-<nav>
+<body class="contact-page">
+<header>
+  <nav class="nav">
   <a href="index.html">Home</a>
   <a href="about.html">About Us</a>
   <a href="Contact.html">Contact</a>
 </nav>
+</header>
 
+<main class="main-content">
 <h1>Contact Me</h1>
 
-<form>
+<form class="contact-form">
   <label>Name:</label><br>
-  <input type="text" required><br><br>
+  <input type="text" required class="form-input"><br><br>
 
   <label>Email:</label><br>
-  <input type="email" required><br><br>
+  <input type="email" required  class="form-input"><br><br>
 
   <label>Message:</label><br>
-  <textarea></textarea><br><br>
+  <textarea id="message" class="form-input" required></textarea><br><br>
 
-  <button type="submit">Send</button>
+  <button type="submit" class="submit-btn">Send</button>
 </form>
-
+</main>
 </body>
 </html>
 
