@@ -16,8 +16,8 @@ body {
 }
 
 .logo {
-  font-size: 20px;
-  font-weight: bold;
+  font-size: 22px;
+  color: #2c3e50;
 }
 
 .nav {
@@ -27,8 +27,12 @@ body {
 
 .nav a {
   text-decoration: none;
-  color: #333;
+  color: #2c3e50;
   font-size: 14px;
+  padding: 6px 8px;
+}
+.nav a:hover {
+  color: #0077b6;
 }
 
 .login {
@@ -38,6 +42,13 @@ body {
 .btn {
   border: 1px solid #333;
   padding: 8px 14px;
+ color: #0077b6;
+ border-radius: 4px;
+}
+
+.btn:hover {
+  background-color: #0077b6;
+  color: white;
 }
 .main-content {
   padding: 40px;
@@ -53,8 +64,8 @@ body {
 }
 
 .profile-img {
-  width: 200px;
   margin-top: 15px;
+  border-radius: 6px;
 }
 .skills h2 {
   margin-bottom: 10px;
@@ -62,17 +73,19 @@ body {
 table {
   width: 100%;
   border-collapse: collapse;
-}
-
-th, td {
-  padding: 10px;
-  border: 1px solid #ccc;
-  text-align: left;
+  background-color: white;
 }
 
 th {
-  background-color: #eee;
+  background-color: #eef3f7;
+  text-align: left;
 }
+
+th, td {
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+}
+
 footer {
   background-color: #222;
   color: white;
