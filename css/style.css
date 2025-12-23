@@ -1,5 +1,4 @@
 body {
-display: grid;
  margin: 0;
   font-family: 'Cairo', sans-serif;
   background-color: #ebdfdf;
@@ -111,7 +110,7 @@ footer {
   margin-top: 60px;
   font-size: 14px;
 }
-.social-icons {
+.social-media {
   margin-top: 10px;
 }
 .icon {
