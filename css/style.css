@@ -75,7 +75,6 @@ body {
   box-shadow: 0 4px 6px rgba(0,2,2,0.1);
 }
 
-
 .about {
   margin-bottom: 50px;
 }
@@ -137,13 +136,13 @@ footer {
 .email:hover { color: #e74c3c; }
 
 body.contact-page{
+ max-width: 600px;
+  margin: 40px auto;
  font-family: Arial, sans-serif;
   align-items: center;  
-  margin:auto;
- max-width: 600px;
-  width: 90%;
   background: #ebdfdf;
   padding: 30px;
+  border-radius: 10px;
   color: #333; }
 
 .nav {
