@@ -130,7 +130,7 @@ footer {
 .github:hover { color: #333; }
 .email:hover { color: #e74c3c; }
 
-body.contact-page main {
+body.contact-page {
  max-width: 420px;
  margin: 60px auto;
   font-family: Arial, sans-serif;
