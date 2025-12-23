@@ -130,7 +130,9 @@ footer {
 .github:hover { color: #333; }
 .email:hover { color: #e74c3c; }
 
-body.contact-page {
+body.contact-page main {
+ max-width: 420px;
+ margin: 60px auto;
   font-family: Arial, sans-serif;
   background: #ebdfdf;
   padding: 30px;
@@ -170,14 +172,17 @@ body.contact-page {
   margin-bottom: 5px;
   font-weight: bold;
 }
-.contact-form .form-input {
+.contact-form {
   width: 100%;
   padding: 10px;
   margin-bottom: 15px;
   border-radius: 5px;
   border: 1px solid #ccc;
 }
-
+.form-input {width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+            }
 .form-input:focus {
   outline: none;
   border-color: #4fa6a6;
