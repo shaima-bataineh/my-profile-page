@@ -96,6 +96,25 @@ footer {
   margin-top: 60px;
   font-size: 14px;
 }
+.social-icons {
+  margin-top: 10px;
+}
+.icon {
+  display: inline-block;
+  margin: 0 10px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: transform 0.3s, color 0.3s;
+}
+.icon:hover {
+  transform: translateY(-5px) scale(1.1);
+  color: #F4D35E; 
+}
+
+.linkedin:hover { color: #0077b5; }
+.github:hover { color: #333; }
+.email:hover { color: #e74c3c; }
 
 body.contact-page{
  font-family: Arial, sans-serif;
