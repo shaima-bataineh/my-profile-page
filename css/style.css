@@ -97,7 +97,6 @@ body.contact-page{
  font-family: Arial, sans-serif;
  justify-content: center;
   align-items: center;  
- max-width: 600px;
   margin:0;
   background: #E6F1EA;
   padding: 30px;
@@ -121,14 +120,6 @@ body.contact-page{
   background-color: #3D7B7B;
 }
 
-.main-content {
-  max-width: 600px;
-  margin: 40px auto;
-  background: #E6F1EA;
-  padding: 30px;
-  border-radius: 10px;
-  box-shadow: 0 4px 6px rgba(0,2,2,0.1);
-}
 .contact-form label {
   display: block;
   margin-bottom: 5px;
