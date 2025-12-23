@@ -46,9 +46,13 @@ body {
  background-color:#9BB4C0; }
 
 .main-content {
- background-color:E6E6E6;
-  padding: 40px;
- margin: auto;
+  max-width: 600px;
+  margin: 40px auto;
+  background: #f0ebdd;
+ color:2b2b2a;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0,2,2,0.1);
 }
 
 
