@@ -140,6 +140,7 @@ body.contact-page {
   padding: 30px;
   border-radius: 10px;
   color: #333;
+ justify-content: space-between
 }
 
 .nav {
