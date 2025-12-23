@@ -119,7 +119,9 @@ footer {
 body.contact-page{
  font-family: Arial, sans-serif;
   align-items: center;  
-  margin:0;
+  margin:auto;
+ max-width: 600px;
+  width: 90%;
   background: #E6F1EA;
   padding: 30px;
   color: #333; }
