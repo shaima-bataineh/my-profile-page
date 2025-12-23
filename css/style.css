@@ -2,8 +2,8 @@ body {
  display: grid;
  margin: 0;
   font-family: 'Cairo', sans-serif;
-  background-color: #ABE7B2;
-  color: #91DDCF;
+  background-color: #FCF9EA;
+  color: #FFA4A4;
 }
 
 
@@ -18,7 +18,7 @@ body {
 
 .logo {
   font-size: 22px;
-  color: #E8C5E5;
+  color: #FFA4A4;
 }
 
 .nav {
@@ -35,7 +35,7 @@ body {
 }
 .nav a:hover {
   color: white;
-  background-color: #F7F9F2;
+  background-color: #4DA8DA;
 }
 
 .login {
