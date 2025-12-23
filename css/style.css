@@ -135,15 +135,15 @@ footer {
 .github:hover { color: #333; }
 .email:hover { color: #e74c3c; }
 
-body.contact-page{
- max-width: 600px;
+body.contact-page {
+  max-width: 600px;
   margin: 40px auto;
- font-family: Arial, sans-serif;
-  align-items: center;  
+  font-family: Arial, sans-serif;
   background: #ebdfdf;
   padding: 30px;
   border-radius: 10px;
-  color: #333; }
+  color: #333;
+}
 
 .nav {
   display: flex;
@@ -161,6 +161,16 @@ body.contact-page{
 .nav a:hover {
   background-color: #3D7B7B;
 }
+.main-content {
+  max-width: 600px;
+  margin: 40px auto;
+  background: #f0ebdd;
+ color:2b2b2a;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0,2,2,0.1);
+}
+
 .contact-form label {
   display: block;
   margin-bottom: 5px;
@@ -173,6 +183,8 @@ body.contact-page{
   border-radius: 5px;
   border: 1px solid #ccc;
 }
+
+
 .form-input:focus {
   outline: none;
   border-color: #4fa6a6;
