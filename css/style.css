@@ -93,25 +93,30 @@ footer {
 body.contact-page{
  margin: 0;
  font-family: Arial, sans-serif;
-  background-color: #EEE6CA;
+  background-color: #F6F1E7;
   color: #333; }
 .nav {
   display: flex;
   justify-content: center;
-  background-color: #6fc7c5;
+  background-color: #50A6A6;
   padding: 10px 0;
 }
 .nav a {
   color: white;
   text-decoration: none;
+  padding: 5px 10px;
   margin: 0 15px;
   font-weight: bold;
+ border-radius: 4px;
+}
+.nav a:hover {
+  background-color: #3D7B7B;
 }
 
 .main-content {
   max-width: 600px;
   margin: 40px auto;
-  background: #ECF4E8;
+  background: #E6F1EA;
   padding: 30px;
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0,2,2,0.1);
@@ -130,7 +135,7 @@ body.contact-page{
 }
 
 .contact-form .submit-btn {
-  background-color: #4CAF50;
+  background-color: #3CB371;
   color: white;
   border: none;
   padding: 12px 20px;
