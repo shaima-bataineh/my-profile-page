@@ -1,5 +1,5 @@
 body {
-
+display: grid;
  margin: 0;
   font-family: 'Cairo', sans-serif;
   background-color: #ebdfdf;
@@ -135,7 +135,6 @@ footer {
 .email:hover { color: #e74c3c; }
 
 body.contact-page {
- display: flex;
   font-family: Arial, sans-serif;
   background: #ebdfdf;
   padding: 30px;
