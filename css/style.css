@@ -135,7 +135,6 @@ footer {
 .email:hover { color: #e74c3c; }
 
 body.contact-page {
-  max-width: 600px;
   margin: 40px auto;
   font-family: Arial, sans-serif;
   background: #ebdfdf;
