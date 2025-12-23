@@ -18,12 +18,12 @@ body {
 
 .logo {
   font-size: 20px;
-  color: #89959c;
+  color: #2b2b2a;
 }
 
 .nav {
   display: flex;
-  gap: 15px;
+  gap: 10px;
 
 }
 
