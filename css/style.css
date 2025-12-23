@@ -2,7 +2,7 @@ body {
  display: grid;
  margin: 0;
   font-family: 'Cairo', sans-serif;
-  background-color: #dbc5c5;
+  background-color: #ebdfdf;
   color: #2b2b2a;
 }
 
@@ -20,6 +20,7 @@ body {
   font-size: 28px;
   color: #2b2b2a;
  font-weight: 600;
+ text-shadow: 2px 2px 4px gray;
 }
 
 .nav {
@@ -147,7 +148,6 @@ body.contact-page{
 
 .nav {
   display: flex;
-  justify-content: center;
   background-color: #50A6A6;
   padding: 10px 0;
 }
@@ -162,7 +162,6 @@ body.contact-page{
 .nav a:hover {
   background-color: #3D7B7B;
 }
-
 .contact-form label {
   display: block;
   margin-bottom: 5px;
@@ -175,7 +174,10 @@ body.contact-page{
   border-radius: 5px;
   border: 1px solid #ccc;
 }
-
+.form-input:focus {
+  outline: none;
+  border-color: #4fa6a6;
+}
 .contact-form .submit-btn {
   background-color: #3CB371;
   color: white;
