@@ -18,7 +18,7 @@ body {
 
 .logo {
   font-size: 20px;
-  color: #658C58;
+  color: #2b2828;
 }
 
 .nav {
@@ -29,7 +29,6 @@ body {
 
 .nav a {
   text-decoration: none;
- background-color:#EFE9E3;
   font-size: 14px;
   padding: 6px 8px;
 }
