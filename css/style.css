@@ -2,7 +2,7 @@ body {
  display: grid;
  margin: 0;
   font-family: 'Cairo', sans-serif;
-  background-color: #31694E;
+  background-color: #dbc5c5;
   color: #F0E491;
 }
 
@@ -12,7 +12,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 20px 40px;
-  background-color: #ffffff;
+  background-color: #ebdfdf;
   border-bottom: 1px solid #ddd;
 }
 
@@ -82,7 +82,7 @@ th, td {
 }
 
 footer {
-  background-color: #5D866C;
+  background-color: #37353E;
   color: white;
   text-align: center;
   padding: 25px;
