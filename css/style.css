@@ -94,10 +94,15 @@ footer {
 }
 
 body.contact-page{
- margin: 0;
  font-family: Arial, sans-serif;
-  background-color: #F6F1E7;
+ max-width: 600px;
+  margin: 40px auto;
+  background: #E6F1EA;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
   color: #333; }
+
 .nav {
   display: flex;
   justify-content: center;
