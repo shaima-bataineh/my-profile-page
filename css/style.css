@@ -131,8 +131,8 @@ footer {
 .email:hover { color: #e74c3c; }
 
 body.contact-page {
- max-width: 420px;
- margin: 60px auto;
+ max-width: 400px;
+ margin: 50px auto;
   font-family: Arial, sans-serif;
   background: #ebdfdf;
   padding: 30px;
@@ -172,17 +172,14 @@ body.contact-page {
   margin-bottom: 5px;
   font-weight: bold;
 }
-.contact-form {
+.contact-form .form-input {
   width: 100%;
   padding: 10px;
   margin-bottom: 15px;
   border-radius: 5px;
   border: 1px solid #ccc;
 }
-.form-input {width: 100%;
-  padding: 10px;
-  margin-bottom: 15px;
-            }
+
 .form-input:focus {
   outline: none;
   border-color: #4fa6a6;
