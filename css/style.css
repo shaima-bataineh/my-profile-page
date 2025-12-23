@@ -95,12 +95,12 @@ footer {
 
 body.contact-page{
  font-family: Arial, sans-serif;
+ justify-content: center;
+  align-items: center;  
  max-width: 600px;
-  margin: 40px auto;
+  margin:0;
   background: #E6F1EA;
   padding: 30px;
-  border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
   color: #333; }
 
 .nav {
