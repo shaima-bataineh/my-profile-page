@@ -166,8 +166,8 @@ main-conten {
   padding: 30px;
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0,2,2,0.1);
-  width: 90%;
-  max-width: 500px;
+  width:90%;
+  max-width:300px;
 }
 .contact-form{
  margin-top: 20px;}
