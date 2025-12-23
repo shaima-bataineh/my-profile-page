@@ -91,7 +91,6 @@ footer {
 }
 
 body.contact-page{
- display:grid;
  margin: 0;
  font-family: Arial, sans-serif;
   background-color: #EEE6CA;
@@ -138,4 +137,7 @@ body.contact-page{
   border-radius: 5px;
   cursor: pointer;
 }
- 
+ .contact-form .submit-btn:hover {
+  background-color: #45a049;
+}
+
