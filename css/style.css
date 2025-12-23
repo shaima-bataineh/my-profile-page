@@ -118,10 +118,10 @@ body.contact-page{
 .main-content {
   max-width: 600px;
   margin: 40px auto;
-  background: white;
+  background: #ECF4E8;
   padding: 30px;
   border-radius: 10px;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 6px rgba(0,2,2,0.1);
 }
 .contact-form label {
   display: block;
