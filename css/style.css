@@ -65,7 +65,6 @@ display: grid;
 }
 
 .main-content {
- max-width:600px;
   margin: 40px auto;
   background: #f0ebdd;
  color:2b2b2a;
@@ -82,7 +81,6 @@ display: grid;
   margin-bottom: 10px;
  text-shadow: 2px 2px 4px gray;
 }
-
 .profile-img {
   margin-top: 15px;
   border-radius: 6px;
@@ -134,7 +132,7 @@ footer {
 .github:hover { color: #333; }
 .email:hover { color: #e74c3c; }
 
-body.contac-page {
+body.contact-page {
   font-family: Arial, sans-serif;
   background: #ebdfdf;
   padding: 30px;
