@@ -41,8 +41,12 @@ body {
   font-weight: bold;
  background-color:#9BB4C0;
 }
+.get-started { 
+ font-weight: bold;
+ background-color:#9BB4C0; }
 
 .main-content {
+ background-color:E6E6E6;
   padding: 40px;
  margin: auto;
 }
