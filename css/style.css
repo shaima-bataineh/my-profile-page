@@ -6,7 +6,6 @@ display: grid;
   color: #2b2b2a;
 }
 
-
 .header {
   display: flex;
   justify-content: space-between;
@@ -166,11 +165,10 @@ main-conten {
   padding: 30px;
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0,2,2,0.1);
-  width:90%;
+  width:80%;
   max-width:300px;
 }
-.contact-form{
- margin-top: 20px;}
+.contact-form{ margin-top: 20px;}
 
 .contact-form label {
   display: block;
@@ -184,7 +182,6 @@ main-conten {
   border-radius: 5px;
   border: 1px solid #ccc;
 }
-
 
 .form-input:focus {
   outline: none;
@@ -201,4 +198,3 @@ main-conten {
  .contact-form .submit-btn:hover {
   background-color: #45a049;
 }
-
