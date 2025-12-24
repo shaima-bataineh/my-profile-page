@@ -67,7 +67,10 @@ body {
  margin:auto;
  padding:24px;
 }
-
+.home.main-content{
+ display:flex;
+ gap:24px;
+}
 .about {
   margin-bottom: 50px;
 }
