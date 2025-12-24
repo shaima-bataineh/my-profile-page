@@ -66,6 +66,7 @@ body {
   max-width:1200px;
  margin:auto;
  padding:24px;
+ background-color:#c5e3d5;
 }
 .home.main-content{
  display:flex;
