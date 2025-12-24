@@ -14,12 +14,12 @@ body {
   border-bottom: 1px solid #ddd;
 }
 
-.header.nav {
+.header .nav {
   display: flex;
   margin:0;
   align-items: center;
   padding: 10px 20px;
-  border-raduis:12px;
+  border-radius: 12px;
   background-color: #4fa6a6;
   border-bottom: 1px solid #ddd;
 }
@@ -127,7 +127,7 @@ footer {
 .github:hover { color: #333; }
 .email:hover { color: #e74c3c; }
 
-body.contact-page.main-content {
+.contact-page .main-content {
  margin: 50px auto;
  padding:30px;
  border-radius: 10px;
@@ -143,7 +143,7 @@ body.contact-page.main-content {
   padding: 10px 0;
   margin: 40px auto;
  justify-content: center;
-  margin-top: 40px;
+  margin-top: 40px;}
 
 .nav a {
   color: white;
