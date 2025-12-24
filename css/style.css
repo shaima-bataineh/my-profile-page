@@ -7,25 +7,24 @@ body {
 
 .header {
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  padding: 16px 60px;
-  background-color: #ebdfdf;
+  justify-content: space-between;
+}
+
+.header.nav {
+  display: flex;
+  margin:0;
+  align-items: center;
+  padding: 10px 20px;
+  border-raduis:12px;
+  background-color: #4fa6a6;
   border-bottom: 1px solid #ddd;
 }
 
-.h1 {
-  font-size: 28px;
-  color: #2b2b2a;
- font-weight: 600;
- text-shadow: 2px 2px 4px gray;
-}
-
-.nav {
- background-color: #4fa6a6;
- padding: 10px 20px;
-  border-radius: 12px;
-  display: flex;
+.header h1 {
+  font-size: 22px;
+  font-weight: 600;
+  margin: 0;
 }
 
 .nav a {
@@ -144,12 +143,11 @@ body.contact-page.main-content {
   color: #333;
 }
 
-.nav {
-  display: flex;
+.contact-page .nav {
   background-color: #50A6A6;
   padding: 10px 0;
- margin: 40px auto;
-}
+  margin: 40px auto;
+
 .nav a {
   color: white;
   text-decoration: none;
