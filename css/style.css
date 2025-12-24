@@ -139,22 +139,24 @@ footer {
 
 .contact-page .nav {
   display: flex;
-    margin: 0;
-    align-items: center;
-    padding: 10px 20px;
-    border-radius: 12px;
-    background-color: #4fa6a6;
-    border-bottom: 1px solid #ddd;}
+  justify-content: center;
+  gap: 20px;
 
-.nav a {
+  width: fit-content;
+  margin: 40px auto;
+
+  padding: 10px 20px;
+  border-radius: 12px;
+  background-color: #4fa6a6;}
+
+.contact-page .nav a {
   color: white;
   text-decoration: none;
-  padding: 5px 10px;
-  margin: 0 15px;
+  padding: 6px 14px;
   font-weight: bold;
- border-radius: 4px;
+  border-radius: 6px;
 }
-.nav a:hover {
+.contact-page .nav a:hover {
   background-color: #3D7B7B;
 }
 
