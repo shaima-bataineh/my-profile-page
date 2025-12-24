@@ -63,15 +63,16 @@ body {
 }
 
 .main-content {
-  max-width:1200px;
+  max-width:1100px;
  margin:auto;
- padding:24px;
+ padding:40px;
  background-color:#c5e3d5;
+ border-radius:10px;
 }
 .home.main-content{
  display:flex;
  gap:24px;
- max-width:1200px;
+ max-width:1000px;
 }
 .about {
   margin-bottom: 50px;
@@ -132,7 +133,12 @@ footer {
 .github:hover { color: #333; }
 .email:hover { color: #e74c3c; }
 
-body.contact-page {
+body.contact-page.main-content {
+ margin: 50px auto;
+ padding:30px;
+ border-radius: 10px;
+ box-shadow:0 4px 6px rgba(0,0,0,0.1);
+ max-width:600px;
   font-family: Arial, sans-serif;
   background: #ebdfdf;
   color: #333;
@@ -155,15 +161,7 @@ body.contact-page {
 .nav a:hover {
   background-color: #3D7B7B;
 }
-.contact-page.main-content {
-  margin: 50px auto;
-  background: #f0ebdd;
- color:#2b2b2a;
-  padding: 30px;
-  border-radius: 10px;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-  max-width: 400px;
-}
+
 .contact-form{ margin-top: 20px;}
 
 .contact-form label {
